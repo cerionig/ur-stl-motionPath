@@ -1,0 +1,14 @@
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:msg/ControllerState.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:msg/ChainConnection.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:msg/HardwareComponentState.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:msg/HardwareInterface.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ConfigureController.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListControllers.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListControllerTypes.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListHardwareComponents.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ListHardwareInterfaces.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/LoadController.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/ReloadControllerLibraries.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/SetHardwareComponentState.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/SwitchController.idl
+/home/gcerioni/ws_ur16/build/controller_manager_msgs/rosidl_adapter/controller_manager_msgs:srv/UnloadController.idl

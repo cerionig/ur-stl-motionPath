@@ -1,0 +1,6 @@
+Invoking command in '/home/gcerioni/ws_ur16/build/kinematics_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/kinematics_interface/kinematics_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/kinematics_interface
+Invoked command in '/home/gcerioni/ws_ur16/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/kinematics_interface/kinematics_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/kinematics_interface
+Invoking command in '/home/gcerioni/ws_ur16/build/kinematics_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/kinematics_interface -- -j8 -l8
+Invoked command in '/home/gcerioni/ws_ur16/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/kinematics_interface -- -j8 -l8
+Invoking command in '/home/gcerioni/ws_ur16/build/kinematics_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/kinematics_interface
+Invoked command in '/home/gcerioni/ws_ur16/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/kinematics_interface

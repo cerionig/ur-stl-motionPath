@@ -1,0 +1,65 @@
+[0.046s] Invoking command in '/home/gcerioni/ws_ur16/build/transmission_interface': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/transmission_interface -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.128s] [  4%] Built target ament_generate_version_header__transmission_interface
+[0.133s] [ 16%] Built target gmock
+[0.137s] [ 25%] Built target gmock_main
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target test_simple_transmission[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target transmission_interface[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target test_differential_transmission[0m
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target test_simple_transmission_loader[0m
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target test_differential_transmission_loader[0m
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission_loader[0m
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[0.210s] [ 33%] Built target test_four_bar_linkage_transmission
+[0.213s] [ 41%] Built target test_differential_transmission
+[0.219s] [ 50%] Built target test_simple_transmission
+[0.223s] [ 58%] Built target test_simple_transmission_loader
+[0.225s] [ 75%] Built target transmission_interface
+[0.228s] [ 83%] Built target test_four_bar_linkage_transmission_loader
+[0.230s] [ 91%] Built target test_differential_transmission_loader
+[0.240s] [100%] Built target test_utils
+[0.257s] Invoked command in '/home/gcerioni/ws_ur16/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/transmission_interface -- -j8 -l8
+[0.259s] Invoking command in '/home/gcerioni/ws_ur16/build/transmission_interface': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/transmission_interface
+[0.272s] -- Install configuration: "Release"
+[0.272s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include
+[0.272s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface
+[0.272s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/accessor.hpp
+[0.272s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/handle.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/visibility_control.h
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/exception.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[0.273s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/transmission.hpp
+[0.274s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[0.274s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[0.274s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[0.274s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+[0.274s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/lib/libtransmission_interface.so
+[0.275s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[0.275s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[0.275s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[0.276s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[0.276s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[0.276s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[0.276s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/environment/path.sh
+[0.276s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/local_setup.bash
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/local_setup.sh
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[0.277s] -- Installing: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/package.dsv
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[0.277s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.278s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.278s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.278s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[0.278s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[0.278s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/package.xml
+[0.278s] -- Up-to-date: /home/gcerioni/ws_ur16/install/transmission_interface/include/transmission_interface/transmission_interface/version.h
+[0.302s] Invoked command in '/home/gcerioni/ws_ur16/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/transmission_interface

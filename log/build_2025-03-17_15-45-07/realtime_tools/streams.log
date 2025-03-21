@@ -1,0 +1,156 @@
+[0.026s] Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/realtime_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/realtime_tools
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.499s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.632s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.698s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.707s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.719s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.843s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.979s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.025s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.088s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.105s] -- Looking for C++ include pthread.h
+[1.221s] -- Looking for C++ include pthread.h - found
+[1.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.333s] -- Found Threads: TRUE  
+[1.404s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.476s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: headers 
+[1.481s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.483s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[1.494s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.505s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[1.536s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.585s] -- The C compiler identification is GNU 11.4.0
+[1.595s] -- Detecting C compiler ABI info
+[1.679s] -- Detecting C compiler ABI info - done
+[1.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.688s] -- Detecting C compile features
+[1.689s] -- Detecting C compile features - done
+[1.692s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.694s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.799s] -- Configuring done
+[1.889s] -- Generating done
+[1.936s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/realtime_tools
+[1.979s] Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/realtime_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/realtime_tools
+[1.980s] Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/realtime_tools -- -j8 -l8
+[3.413s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.413s] [  6%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[3.413s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.413s] [ 12%] [32mBuilding CXX object CMakeFiles/thread_priority.dir/src/realtime_helpers.cpp.o[0m
+[3.414s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.414s] [ 18%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_helpers.cpp.o[0m
+[5.567s] [ 21%] [32m[1mLinking CXX shared library libthread_priority.so[0m
+[6.309s] [ 21%] Built target thread_priority
+[7.518s] [ 25%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.566s] [ 28%] [32m[1mLinking CXX shared library librealtime_tools.so[0m
+[7.812s] [ 28%] Built target gmock_main
+[8.300s] [ 28%] Built target realtime_tools
+[33.950s] [ 31%] [32m[1mLinking CXX static library libgmock.a[0m
+[34.051s] [ 31%] Built target gmock
+[34.081s] [ 34%] [32mBuilding CXX object CMakeFiles/thread_priority_tests.dir/test/thread_priority_tests.cpp.o[0m
+[37.868s] [ 37%] [32m[1mLinking CXX executable thread_priority_tests[0m
+[38.058s] [ 37%] Built target thread_priority_tests
+[38.085s] [ 40%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests.dir/test/realtime_publisher_tests.cpp.o[0m
+[40.983s] [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/test/realtime_publisher_tests.cpp:[m[K In member function ‘[01m[Kvirtual void RealtimePublisher_construct_destruct_Test::TestBody()[m[K’:
+[40.984s] [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/test/realtime_publisher_tests.cpp:45:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Krealtime_tools::RealtimePublisher<MessageT>::RealtimePublisher() [with MessageT = test_msgs::msg::Strings_<std::allocator<void> >][m[K’ is deprecated: Use constructor with rclcpp::Publisher<T>::SharedPtr instead - this class does not make sense without a real publisher [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[40.984s]    45 | TEST(RealtimePublisher, construct_destruct) { RealtimePublisher<StringMsg> [01;35m[Krt_pub[m[K; }
+[40.984s]       |                                                                            [01;35m[K^~~~~~[m[K
+[40.984s] In file included from [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/test/realtime_publisher_tests.cpp:39[m[K:
+[40.984s] [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/include/realtime_tools/realtime_publisher.hpp:86:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[40.984s]    86 |   [01;36m[KRealtimePublisher[m[K()
+[40.984s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[52.316s] [ 43%] [32m[1mLinking CXX executable realtime_publisher_tests[0m
+[52.546s] [ 43%] Built target realtime_publisher_tests
+[52.566s] [ 46%] [32mBuilding CXX object CMakeFiles/realtime_server_goal_handle_tests.dir/test/realtime_server_goal_handle_tests.cpp.o[0m
+[61.184s] [ 50%] [32m[1mLinking CXX executable realtime_server_goal_handle_tests[0m
+[61.348s] [ 50%] Built target realtime_server_goal_handle_tests
+[61.367s] [ 53%] [32mBuilding CXX object CMakeFiles/test_async_function_handler.dir/test/test_async_function_handler.cpp.o[0m
+[68.598s] [ 56%] [32m[1mLinking CXX executable test_async_function_handler[0m
+[68.743s] [ 56%] Built target test_async_function_handler
+[68.763s] [ 59%] [32mBuilding CXX object CMakeFiles/realtime_mutex_tests.dir/test/realtime_mutex_tests.cpp.o[0m
+[71.550s] [ 62%] [32m[1mLinking CXX executable realtime_mutex_tests[0m
+[71.664s] [ 62%] Built target realtime_mutex_tests
+[71.683s] [ 65%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests_non_polling.dir/test/realtime_publisher_tests_non_polling.cpp.o[0m
+[73.792s] [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/test/realtime_publisher_tests_non_polling.cpp:[m[K In member function ‘[01m[Kvirtual void RealtimePublisherNonPolling_construct_destruct_Test::TestBody()[m[K’:
+[73.793s] [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/test/realtime_publisher_tests_non_polling.cpp:47:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Krealtime_tools::RealtimePublisher<MessageT>::RealtimePublisher() [with MessageT = test_msgs::msg::Strings_<std::allocator<void> >][m[K’ is deprecated: Use constructor with rclcpp::Publisher<T>::SharedPtr instead - this class does not make sense without a real publisher [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[73.793s]    47 | TEST(RealtimePublisherNonPolling, construct_destruct) { RealtimePublisher<StringMsg> [01;35m[Krt_pub[m[K; }
+[73.793s]       |                                                                                      [01;35m[K^~~~~~[m[K
+[73.793s] In file included from [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/test/realtime_publisher_tests_non_polling.cpp:41[m[K:
+[73.793s] [01m[K/home/gcerioni/ws_ur16/src/realtime_tools/include/realtime_tools/realtime_publisher.hpp:86:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[73.793s]    86 |   [01;36m[KRealtimePublisher[m[K()
+[73.793s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[82.342s] [ 68%] [32m[1mLinking CXX executable realtime_publisher_tests_non_polling[0m
+[82.529s] [ 68%] Built target realtime_publisher_tests_non_polling
+[82.547s] [ 71%] [32mBuilding CXX object CMakeFiles/lock_free_queue_tests.dir/test/lock_free_queue_tests.cpp.o[0m
+[82.547s] [ 75%] [32mBuilding CXX object CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o[0m
+[82.553s] [ 78%] [32mBuilding CXX object CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o[0m
+[84.849s] [ 81%] [32m[1mLinking CXX executable realtime_buffer_tests[0m
+[84.979s] [ 84%] [32m[1mLinking CXX executable realtime_clock_tests[0m
+[85.033s] [ 84%] Built target realtime_buffer_tests
+[85.064s] [ 87%] [32mBuilding CXX object CMakeFiles/realtime_box_best_effort_tests.dir/test/realtime_box_best_effort_tests.cpp.o[0m
+[85.068s] [ 90%] [32mBuilding CXX object CMakeFiles/realtime_box_tests.dir/test/realtime_box_tests.cpp.o[0m
+[85.181s] [ 90%] Built target realtime_clock_tests
+[87.797s] [ 93%] [32m[1mLinking CXX executable realtime_box_tests[0m
+[88.012s] [ 93%] Built target realtime_box_tests
+[88.472s] [ 96%] [32m[1mLinking CXX executable realtime_box_best_effort_tests[0m
+[88.660s] [ 96%] Built target realtime_box_best_effort_tests
+[91.707s] [100%] [32m[1mLinking CXX executable lock_free_queue_tests[0m
+[91.898s] [100%] Built target lock_free_queue_tests
+[91.914s] Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/realtime_tools -- -j8 -l8
+[91.916s] Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/realtime_tools
+[91.926s] -- Install configuration: "Release"
+[91.926s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools
+[91.927s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools
+[91.927s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[91.927s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/async_function_handler.hpp
+[91.927s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.hpp
+[91.927s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[91.927s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/mutex.hpp
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.hpp
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.hpp
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.hpp
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.hpp
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.hpp
+[91.928s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.h
+[91.929s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/lock_free_queue.hpp
+[91.929s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[91.929s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_helpers.hpp
+[91.929s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/lib/librealtime_tools.so
+[91.930s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/realtime_tools/lib/librealtime_tools.so" to ""
+[91.930s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/lib/libthread_priority.so
+[91.930s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/realtime_tools/lib/libthread_priority.so" to ""
+[91.931s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[91.931s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[91.931s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[91.932s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[91.932s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[91.932s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[91.932s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/path.sh
+[91.932s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[91.932s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.bash
+[91.933s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.sh
+[91.933s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[91.933s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[91.933s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.dsv
+[91.933s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[91.934s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[91.934s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-release.cmake
+[91.934s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[91.935s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[91.935s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[91.935s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[91.935s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.xml
+[91.937s] Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/realtime_tools

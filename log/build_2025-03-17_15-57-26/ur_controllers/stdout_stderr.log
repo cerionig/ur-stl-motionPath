@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[  6%] Built target force_mode_controller_parameters
+[ 12%] Built target speed_scaling_state_broadcaster_parameters
+[ 19%] Built target gpio_controller_parameters
+[ 25%] Built target freedrive_mode_controller_parameters
+[ 32%] Built target scaled_joint_trajectory_controller_parameters
+[ 38%] Built target passthrough_trajectory_controller_parameters
+[ 45%] Built target gmock_main
+[ 51%] Built target ur_configuration_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 61%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+In file included from [01m[K/home/gcerioni/ws_ur16/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:41[m[K:
+[01m[K/home/gcerioni/ws_ur16/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp:50:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_box_best_effort.hpp: No such file or directory
+   50 | #include [01;31m[K<realtime_tools/realtime_box_best_effort.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:160: CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:380: CMakeFiles/ur_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/realtime_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/realtime_tools
+Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/realtime_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/realtime_tools
+Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/realtime_tools -- -j8 -l8
+Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/realtime_tools -- -j8 -l8
+Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/realtime_tools
+Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/realtime_tools

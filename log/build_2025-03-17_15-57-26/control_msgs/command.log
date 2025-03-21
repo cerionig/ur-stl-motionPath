@@ -1,0 +1,4 @@
+Invoking command in '/home/gcerioni/ws_ur16/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/control_msgs -- -j8 -l8
+Invoked command in '/home/gcerioni/ws_ur16/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/control_msgs -- -j8 -l8
+Invoking command in '/home/gcerioni/ws_ur16/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/control_msgs
+Invoked command in '/home/gcerioni/ws_ur16/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/control_msgs

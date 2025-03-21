@@ -1,0 +1,19 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/Analog.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/Digital.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/IOStates.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:srv/SetAnalogOutput.srv",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:srv/SetPayload.srv",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:srv/SetIO.srv",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:srv/GetRobotSoftwareVersion.srv",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:srv/SetForceMode.srv",
+    "/home/gcerioni/ws_ur16/src/ur_msgs:action/ToolContact.action"
+  ]
+}

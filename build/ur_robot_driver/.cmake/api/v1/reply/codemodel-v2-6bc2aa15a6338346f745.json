@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d69c85b8234cd4c5a959.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_robot_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ur_robot_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ur_robot_driver_egg-Release-7b40088f1ae6f0ee9445.json",
+					"name" : "ament_cmake_python_build_ur_robot_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ur_robot_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ur_robot_driver-Release-24316cc328a8c55530dd.json",
+					"name" : "ament_cmake_python_copy_ur_robot_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_stopper_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_stopper_node-Release-d82ce0d3c782c161193b.json",
+					"name" : "controller_stopper_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dashboard_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dashboard_client-Release-684b21b46b70527d959c.json",
+					"name" : "dashboard_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_helper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_helper-Release-c104f691241c6454236d.json",
+					"name" : "robot_state_helper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-058efbcb9fd43da5561c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_driver_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_driver_plugin-Release-e1832a8c2f7168bbefc9.json",
+					"name" : "ur_robot_driver_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_driver_uninstall-Release-19a66268f6f5385084a3.json",
+					"name" : "ur_robot_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros2_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros2_control_node-Release-6cbc3e2d09cc8a6663b2.json",
+					"name" : "ur_ros2_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urscript_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urscript_interface-Release-02434dea722b2bf3e199.json",
+					"name" : "urscript_interface",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gcerioni/ws_ur16/build/ur_robot_driver",
+		"source" : "/home/gcerioni/ws_ur16/src/Universal_Robots_ROS2_Driver/ur_robot_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

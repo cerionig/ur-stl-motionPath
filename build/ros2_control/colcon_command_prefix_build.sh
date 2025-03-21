@@ -1,0 +1,12 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/gcerioni/ws_ur16/install/control_msgs/share/control_msgs/package.sh"
+. "/home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/package.sh"
+. "/home/gcerioni/ws_ur16/install/joint_limits/share/joint_limits/package.sh"
+. "/home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.sh"
+. "/home/gcerioni/ws_ur16/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh"
+. "/home/gcerioni/ws_ur16/install/hardware_interface/share/hardware_interface/package.sh"
+. "/home/gcerioni/ws_ur16/install/controller_interface/share/controller_interface/package.sh"
+. "/home/gcerioni/ws_ur16/install/hardware_interface_testing/share/hardware_interface_testing/package.sh"
+. "/home/gcerioni/ws_ur16/install/transmission_interface/share/transmission_interface/package.sh"
+. "/home/gcerioni/ws_ur16/install/controller_manager/share/controller_manager/package.sh"
+. "/home/gcerioni/ws_ur16/install/ros2controlcli/share/ros2controlcli/package.sh"

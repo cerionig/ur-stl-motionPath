@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-814bedefb697412dea33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "controller_manager_msgs__py",
+					"jsonFile" : "directory-controller_manager_msgs__py-Release-2e58e35c75a7e69c33df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/gcerioni/ws_ur16/build/controller_manager_msgs/controller_manager_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "controller_manager_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_controller_manager_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_controller_manager_msgs_egg-Release-8af4e108d3a651bec53e.json",
+					"name" : "ament_cmake_python_build_controller_manager_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_controller_manager_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_controller_manager_msgs-Release-e43dabb655e26c48b995.json",
+					"name" : "ament_cmake_python_copy_controller_manager_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs-Release-0ee7a9a147d29e8ebc56.json",
+					"name" : "controller_manager_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__cpp-Release-8c5a7c5276fb4571e468.json",
+					"name" : "controller_manager_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "controller_manager_msgs__py::@39c1b1744e06d110d60b",
+					"jsonFile" : "target-controller_manager_msgs__py-Release-22b5def5321024045df2.json",
+					"name" : "controller_manager_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_generator_c-Release-281d2502b6fcb72699a7.json",
+					"name" : "controller_manager_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_generator_py-Release-ce0b198a00c5af7e8b1e.json",
+					"name" : "controller_manager_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_c-Release-2909fa63ff88f87a17ad.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_c__pyext-Release-bda7647d246cee176273.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_cpp-Release-5ed1b0867ae730015a0d.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_fastrtps_c-Release-162871e32dfb99092423.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-e50a5ad7a0509118119b.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_fastrtps_cpp-Release-047e43dde82aa5db3ddb.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_introspection_c-Release-e8c5da5b28c610522d41.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_introspection_c__pyext-Release-b02876ac150ba75fcdd9.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs__rosidl_typesupport_introspection_cpp-Release-aa9aecbb306c10e8d126.json",
+					"name" : "controller_manager_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_manager_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_manager_msgs_uninstall-Release-64663e6a753455a8f1df.json",
+					"name" : "controller_manager_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5d8e4b20f45a60d4b596.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gcerioni/ws_ur16/build/controller_manager_msgs",
+		"source" : "/home/gcerioni/ws_ur16/src/ros2_control/controller_manager_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

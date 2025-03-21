@@ -1,0 +1,6 @@
+[ 18%] Built target gmock
+[ 31%] Built target gmock_main
+[ 62%] Built target tricycle_controller
+[ 75%] Built target test_tricycle_controller
+[ 87%] Built target test_traction_limiter
+[100%] Built target test_load_tricycle_controller

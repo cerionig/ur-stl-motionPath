@@ -1,0 +1,110 @@
+[0.034s] Invoking command in '/home/gcerioni/ws_ur16/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/ros2_controllers/diff_drive_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/diff_drive_controller
+[2.619s] -- The CXX compiler identification is GNU 11.4.0
+[2.619s] -- Detecting CXX compiler ABI info
+[2.619s] -- Detecting CXX compiler ABI info - done
+[2.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.619s] -- Detecting CXX compile features
+[2.619s] -- Detecting CXX compile features - done
+[2.619s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.619s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.620s] -- Found controller_interface: 2.48.0 (/home/gcerioni/ws_ur16/install/controller_interface/share/controller_interface/cmake)
+[2.620s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.620s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.620s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.620s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.620s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.620s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.620s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.621s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.621s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.621s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.621s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.621s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.621s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.621s] -- Looking for C++ include pthread.h
+[2.621s] -- Looking for C++ include pthread.h - found
+[2.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.622s] -- Found Threads: TRUE  
+[2.622s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.622s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.622s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.622s] -- Found realtime_tools: 2.12.0 (/home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake)
+[2.622s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[2.622s] -- Found tf2_msgs: 0.25.11 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.623s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.624s] -- Found controller_manager: 2.48.0 (/home/gcerioni/ws_ur16/install/controller_manager/share/controller_manager/cmake)
+[2.624s] -- Found ros2_control_test_assets: 2.48.0 (/home/gcerioni/ws_ur16/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.624s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.624s] -- The C compiler identification is GNU 11.4.0
+[2.624s] -- Detecting C compiler ABI info
+[2.629s] -- Detecting C compiler ABI info - done
+[2.629s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.629s] -- Detecting C compile features
+[2.629s] -- Detecting C compile features - done
+[2.629s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.629s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.629s] -- Configuring done
+[2.749s] -- Generating done
+[2.787s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/diff_drive_controller
+[2.817s] Invoked command in '/home/gcerioni/ws_ur16/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/ros2_controllers/diff_drive_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/diff_drive_controller
+[2.824s] Invoking command in '/home/gcerioni/ws_ur16/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/diff_drive_controller -- -j8 -l8
+[3.023s] [  6%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/gcerioni/ws_ur16/build/diff_drive_controller/include/diff_drive_controller/diff_drive_controller_parameters.hpp /home/gcerioni/ws_ur16/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml `[0m
+[3.023s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.023s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.023s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[10.546s] [ 33%] [34m[1mCreating deprecated header file /home/gcerioni/ws_ur16/build/diff_drive_controller/include/diff_drive_controller_parameters.hpp[0m
+[10.730s] [ 33%] Built target diff_drive_controller_parameters
+[13.539s] [ 40%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.726s] [ 40%] Built target gmock_main
+[33.585s] [ 46%] [32m[1mLinking CXX static library libgmock.a[0m
+[33.735s] [ 46%] Built target gmock
+[33.769s] [ 53%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[67.822s] [ 60%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[68.568s] [ 66%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[69.838s] [ 73%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[70.178s] [ 73%] Built target diff_drive_controller
+[70.200s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[78.474s] [ 86%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[78.874s] [ 86%] Built target test_load_diff_drive_controller
+[78.909s] [ 93%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[93.560s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[93.967s] [100%] Built target test_diff_drive_controller
+[93.982s] Invoked command in '/home/gcerioni/ws_ur16/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/diff_drive_controller -- -j8 -l8
+[93.994s] Invoking command in '/home/gcerioni/ws_ur16/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/diff_drive_controller
+[93.995s] -- Install configuration: "Release"
+[93.995s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller
+[93.995s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller_parameters.hpp
+[94.003s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/diff_drive_plugin.xml
+[94.003s] -- Up-to-date: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller
+[94.003s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller
+[94.003s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/odometry.hpp
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/visibility_control.h
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/diff_drive_controller.hpp
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/speed_limiter.hpp
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[94.004s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[94.004s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-release.cmake
+[94.005s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[94.006s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[94.006s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[94.006s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[94.009s] -- Installing: /home/gcerioni/ws_ur16/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[94.033s] Invoked command in '/home/gcerioni/ws_ur16/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/diff_drive_controller

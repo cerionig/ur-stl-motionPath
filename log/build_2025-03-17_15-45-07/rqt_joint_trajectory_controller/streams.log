@@ -1,0 +1,60 @@
+[0.635s] Invoking command in '/home/gcerioni/ws_ur16/src/ros2_controllers/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build install --record /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data
+[0.911s] running egg_info
+[0.912s] creating ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info
+[0.912s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[0.913s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[0.913s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[0.913s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[0.913s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[0.913s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.916s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.917s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.917s] creating /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build
+[0.917s] creating /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib
+[0.917s] creating /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.917s] copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.918s] copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.918s] copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.918s] copying rqt_joint_trajectory_controller/double_editor.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.918s] copying rqt_joint_trajectory_controller/update_combo.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.918s] copying rqt_joint_trajectory_controller/utils.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.918s] copying rqt_joint_trajectory_controller/__init__.py -> /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.919s] running install
+[0.919s] running install_lib
+[0.920s] creating /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.920s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.920s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.920s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.920s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/double_editor.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.921s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/update_combo.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.921s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/utils.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.921s] copying /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/__init__.py -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.921s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_limits_urdf.py to joint_limits_urdf.cpython-310.pyc
+[0.922s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py to rqt_joint_trajectory_controller.cpython-310.pyc
+[0.922s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_trajectory_controller.py to joint_trajectory_controller.cpython-310.pyc
+[0.925s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/double_editor.py to double_editor.cpython-310.pyc
+[0.925s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/update_combo.py to update_combo.cpython-310.pyc
+[0.926s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/utils.py to utils.cpython-310.pyc
+[0.927s] byte-compiling /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/__init__.py to __init__.cpython-310.pyc
+[0.927s] running install_data
+[0.927s] creating /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/ament_index
+[0.927s] creating /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+[0.927s] creating /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[0.928s] copying resource/rqt_joint_trajectory_controller -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[0.928s] copying package.xml -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[0.928s] creating /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.928s] copying resource/scope.png -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.928s] copying resource/scope.svg -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.928s] copying resource/off.svg -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.928s] copying resource/double_editor.ui -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.929s] copying resource/on.svg -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.929s] copying resource/joint_trajectory_controller.ui -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.929s] copying plugin.xml -> /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[0.929s] running install_egg_info
+[0.932s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.43.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.950s] Installing rqt_joint_trajectory_controller script to /home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[0.951s] writing list of installed files to '/home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/install.log'
+[0.973s] Invoked command in '/home/gcerioni/ws_ur16/src/ros2_controllers/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/build install --record /home/gcerioni/ws_ur16/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data

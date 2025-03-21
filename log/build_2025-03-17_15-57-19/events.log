@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000825] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000847] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000862] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000876] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000889] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000902] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000914] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000926] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000939] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000951] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000964] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000976] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000988] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.001000] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.001012] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.001025] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.001037] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.001049] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.001062] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.001074] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.001087] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.001099] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.001111] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.001123] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.001135] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.001147] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.001159] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.001171] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.001183] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.001196] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.001208] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.001220] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.001232] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.001244] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.001256] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.001268] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.001280] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.001292] (-) JobUnselected: {'identifier': 'ur'}
+[0.001304] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.001316] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.001328] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.001340] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.001352] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.001364] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.001376] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.001388] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.001400] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.001412] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001427] (realtime_tools) JobQueued: {'identifier': 'realtime_tools', 'dependencies': OrderedDict()}
+[0.001443] (realtime_tools) JobStarted: {'identifier': 'realtime_tools'}
+[0.007201] (realtime_tools) JobProgress: {'identifier': 'realtime_tools', 'progress': 'cmake'}
+[0.007734] (realtime_tools) JobProgress: {'identifier': 'realtime_tools', 'progress': 'build'}
+[0.008249] (realtime_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gcerioni/ws_ur16/build/realtime_tools', '--', '-j8', '-l8'], 'cwd': '/home/gcerioni/ws_ur16/build/realtime_tools', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'gcerioni'), ('PAM_KWALLET5_LOGIN', '/run/user/1001/kwallet5.socket'), ('QT_SCREEN_SCALE_FACTORS', 'HDMI-1=1.25;DP-1=1.25;HDMI-2=1.25;DP-2=1.25;HDMI-3=1.25;'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1645'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gcerioni'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/gcerioni/ws_ur16/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '6ca1533c4212446e996830d190021835'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/gcerioni/.gtkrc:/home/gcerioni/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gcerioni'), ('WINDOWID', '75497479'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/gcerioni/.gtkrc-2.0:/home/gcerioni/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ARC-AD194E:@/tmp/.ICE-unix/1813,unix/ARC-AD194E:/tmp/.ICE-unix/1813'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session2'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/gcerioni/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('KCRASH_AUTO_RESTARTED', '1'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7jOZz5/agent.1520'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.119'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('PWD', '/home/gcerioni/ws_ur16/build/realtime_tools'), ('XDG_CONFIG_DIRS', '/home/gcerioni/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('XDG_DATA_DIRS', '/usr/share/plasma:/home/gcerioni/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1001'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056732] (realtime_tools) StdoutLine: {'line': b'[  6%] Built target thread_priority\n'}
+[0.058310] (realtime_tools) StdoutLine: {'line': b'[ 15%] Built target gmock\n'}
+[0.058581] (realtime_tools) StdoutLine: {'line': b'[ 21%] Built target gmock_main\n'}
+[0.059049] (realtime_tools) StdoutLine: {'line': b'[ 31%] Built target realtime_tools\n'}
+[0.089132] (realtime_tools) StdoutLine: {'line': b'[ 37%] Built target realtime_box_best_effort_tests\n'}
+[0.089348] (realtime_tools) StdoutLine: {'line': b'[ 43%] Built target thread_priority_tests\n'}
+[0.089996] (realtime_tools) StdoutLine: {'line': b'[ 50%] Built target realtime_buffer_tests\n'}
+[0.090169] (realtime_tools) StdoutLine: {'line': b'[ 56%] Built target realtime_box_tests\n'}
+[0.094290] (realtime_tools) StdoutLine: {'line': b'[ 62%] Built target realtime_clock_tests\n'}
+[0.096761] (realtime_tools) StdoutLine: {'line': b'[ 68%] Built target lock_free_queue_tests\n'}
+[0.097005] (realtime_tools) StdoutLine: {'line': b'[ 75%] Built target realtime_publisher_tests_non_polling\n'}
+[0.100001] (realtime_tools) StdoutLine: {'line': b'[ 81%] Built target realtime_publisher_tests\n'}
+[0.100124] (-) TimerEvent: {}
+[0.116387] (realtime_tools) StdoutLine: {'line': b'[ 87%] Built target realtime_mutex_tests\n'}
+[0.116694] (realtime_tools) StdoutLine: {'line': b'[ 93%] Built target realtime_server_goal_handle_tests\n'}
+[0.116899] (realtime_tools) StdoutLine: {'line': b'[100%] Built target test_async_function_handler\n'}
+[0.127560] (realtime_tools) CommandEnded: {'returncode': 0}
+[0.128185] (realtime_tools) JobProgress: {'identifier': 'realtime_tools', 'progress': 'install'}
+[0.136181] (realtime_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gcerioni/ws_ur16/build/realtime_tools'], 'cwd': '/home/gcerioni/ws_ur16/build/realtime_tools', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'gcerioni'), ('PAM_KWALLET5_LOGIN', '/run/user/1001/kwallet5.socket'), ('QT_SCREEN_SCALE_FACTORS', 'HDMI-1=1.25;DP-1=1.25;HDMI-2=1.25;DP-2=1.25;HDMI-3=1.25;'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1645'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gcerioni'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/gcerioni/ws_ur16/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '6ca1533c4212446e996830d190021835'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/gcerioni/.gtkrc:/home/gcerioni/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gcerioni'), ('WINDOWID', '75497479'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/gcerioni/.gtkrc-2.0:/home/gcerioni/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ARC-AD194E:@/tmp/.ICE-unix/1813,unix/ARC-AD194E:/tmp/.ICE-unix/1813'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session2'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/gcerioni/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('KCRASH_AUTO_RESTARTED', '1'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7jOZz5/agent.1520'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.119'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('PWD', '/home/gcerioni/ws_ur16/build/realtime_tools'), ('XDG_CONFIG_DIRS', '/home/gcerioni/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('XDG_DATA_DIRS', '/usr/share/plasma:/home/gcerioni/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1001'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.142554] (realtime_tools) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.142914] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools\n'}
+[0.143111] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools\n'}
+[0.143299] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp\n'}
+[0.143453] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/async_function_handler.hpp\n'}
+[0.143545] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.hpp\n'}
+[0.143653] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h\n'}
+[0.143741] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/mutex.hpp\n'}
+[0.143824] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.hpp\n'}
+[0.143948] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.hpp\n'}
+[0.144129] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h\n'}
+[0.144251] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.hpp\n'}
+[0.144343] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h\n'}
+[0.144435] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h\n'}
+[0.144608] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.hpp\n'}
+[0.144738] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.hpp\n'}
+[0.144833] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.h\n'}
+[0.144923] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/lock_free_queue.hpp\n'}
+[0.145010] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h\n'}
+[0.145097] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_helpers.hpp\n'}
+[0.145184] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/lib/librealtime_tools.so\n'}
+[0.145270] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/lib/libthread_priority.so\n'}
+[0.145357] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/library_path.sh\n'}
+[0.145444] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/library_path.dsv\n'}
+[0.145538] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools\n'}
+[0.145653] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools\n'}
+[0.145743] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh\n'}
+[0.145825] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv\n'}
+[0.145923] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/path.sh\n'}
+[0.146007] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/path.dsv\n'}
+[0.146092] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.bash\n'}
+[0.146177] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.sh\n'}
+[0.146345] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.zsh\n'}
+[0.146444] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.dsv\n'}
+[0.146558] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.dsv\n'}
+[0.146811] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools\n'}
+[0.146910] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake\n'}
+[0.147000] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-release.cmake\n'}
+[0.147091] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.147182] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.147272] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake\n'}
+[0.147362] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake\n'}
+[0.147451] (realtime_tools) StdoutLine: {'line': b'-- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.xml\n'}
+[0.147935] (realtime_tools) CommandEnded: {'returncode': 0}
+[0.165644] (realtime_tools) JobEnded: {'identifier': 'realtime_tools', 'rc': 0}
+[0.166222] (-) EventReactorShutdown: {}

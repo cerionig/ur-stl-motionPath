@@ -1,0 +1,115 @@
+[0.050s] Invoking command in '/home/gcerioni/ws_ur16/build/pid_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_toolbox/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/ros2_controllers/pid_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/pid_controller
+[16.968s] -- The CXX compiler identification is GNU 11.4.0
+[16.968s] -- Detecting CXX compiler ABI info
+[16.968s] -- Detecting CXX compiler ABI info - done
+[16.968s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.968s] -- Detecting CXX compile features
+[16.968s] -- Detecting CXX compile features - done
+[16.968s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[16.968s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[16.968s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[16.968s] -- Found control_msgs: 4.8.0 (/home/gcerioni/ws_ur16/install/control_msgs/share/control_msgs/cmake)
+[16.968s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[16.968s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[16.968s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[16.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.969s] -- Found control_toolbox: 3.6.0 (/home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake)
+[16.969s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.969s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.969s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.969s] -- Looking for C++ include pthread.h
+[16.969s] -- Looking for C++ include pthread.h - found
+[16.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.969s] -- Found Threads: TRUE  
+[16.969s] -- Found controller_interface: 2.48.0 (/home/gcerioni/ws_ur16/install/controller_interface/share/controller_interface/cmake)
+[16.970s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[16.970s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[16.970s] -- Found controller_manager: 2.48.0 (/home/gcerioni/ws_ur16/install/controller_manager/share/controller_manager/cmake)
+[16.970s] -- Found ros2_control_test_assets: 2.48.0 (/home/gcerioni/ws_ur16/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[16.970s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.970s] -- The C compiler identification is GNU 11.4.0
+[16.970s] -- Detecting C compiler ABI info
+[16.970s] -- Detecting C compiler ABI info - done
+[16.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.970s] -- Detecting C compile features
+[16.970s] -- Detecting C compile features - done
+[16.970s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[16.970s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.970s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.970s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[16.971s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.971s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.971s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[16.971s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.971s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.971s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[16.973s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.976s] -- Configuring done
+[16.976s] -- Generating done
+[16.976s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/pid_controller
+[16.983s] Invoked command in '/home/gcerioni/ws_ur16/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_toolbox/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/ros2_controllers/pid_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/pid_controller
+[16.984s] Invoking command in '/home/gcerioni/ws_ur16/build/pid_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_toolbox/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/pid_controller -- -j8 -l8
+[17.059s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/gcerioni/ws_ur16/build/pid_controller/include/pid_controller/pid_controller_parameters.hpp /home/gcerioni/ws_ur16/src/ros2_controllers/pid_controller/src/pid_controller.yaml `[0m
+[18.113s] [ 11%] [34m[1mCreating deprecated header file /home/gcerioni/ws_ur16/build/pid_controller/include/pid_controller_parameters.hpp[0m
+[18.213s] [ 11%] Built target pid_controller_parameters
+[18.263s] [ 17%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[20.372s] [ 23%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[20.457s] [ 23%] Built target gmock_main
+[20.488s] [ 29%] [32mBuilding CXX object CMakeFiles/pid_controller.dir/src/pid_controller.cpp.o[0m
+[47.087s] [ 35%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[47.528s] [ 35%] Built target pid_controller
+[47.558s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[56.437s] [ 47%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[60.851s] [ 52%] [32m[1mLinking CXX static library libgmock.a[0m
+[60.949s] [ 52%] Built target gmock
+[60.980s] [ 58%] [32mBuilding CXX object CMakeFiles/test_pid_controller.dir/test/test_pid_controller.cpp.o[0m
+[60.980s] [ 64%] [32mBuilding CXX object CMakeFiles/test_pid_controller_preceding.dir/test/test_pid_controller_preceding.cpp.o[0m
+[76.198s] [ 70%] [32m[1mLinking CXX executable test_pid_controller_preceding[0m
+[76.541s] [ 70%] Built target test_pid_controller_preceding
+[92.966s] [ 76%] [32m[1mLinking CXX executable test_pid_controller[0m
+[93.380s] [ 76%] Built target test_pid_controller
+[93.413s] [ 82%] [32mBuilding CXX object CMakeFiles/test_load_pid_controller.dir/test/test_load_pid_controller.cpp.o[0m
+[101.505s] [ 88%] [32m[1mLinking CXX executable test_load_pid_controller[0m
+[101.879s] [ 88%] Built target test_load_pid_controller
+[101.916s] [ 94%] [32mBuilding CXX object CMakeFiles/test_pid_controller_dual_interface.dir/test/test_pid_controller_dual_interface.cpp.o[0m
+[112.734s] [100%] [32m[1mLinking CXX executable test_pid_controller_dual_interface[0m
+[112.950s] [100%] Built target test_pid_controller_dual_interface
+[112.962s] Invoked command in '/home/gcerioni/ws_ur16/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_toolbox/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/pid_controller -- -j8 -l8
+[112.964s] Invoking command in '/home/gcerioni/ws_ur16/build/pid_controller': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_toolbox/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/pid_controller
+[112.972s] -- Install configuration: "Release"
+[112.972s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/include/pid_controller
+[112.972s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/include/pid_controller/pid_controller_parameters.hpp
+[112.972s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/pid_controller.xml
+[112.973s] -- Up-to-date: /home/gcerioni/ws_ur16/install/pid_controller/include/pid_controller
+[112.973s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/include/pid_controller/pid_controller
+[112.973s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/include/pid_controller/pid_controller/visibility_control.h
+[112.973s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/include/pid_controller/pid_controller/pid_controller.hpp
+[112.973s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/lib/libpid_controller.so
+[112.975s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/pid_controller/lib/libpid_controller.so" to ""
+[112.975s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/environment/library_path.sh
+[112.975s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/environment/library_path.dsv
+[112.976s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/ament_index/resource_index/package_run_dependencies/pid_controller
+[112.976s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/ament_index/resource_index/parent_prefix_path/pid_controller
+[112.976s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/environment/ament_prefix_path.sh
+[112.976s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/environment/ament_prefix_path.dsv
+[112.976s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/environment/path.sh
+[112.976s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/environment/path.dsv
+[112.977s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/local_setup.bash
+[112.977s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/local_setup.sh
+[112.977s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/local_setup.zsh
+[112.977s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/local_setup.dsv
+[112.977s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/package.dsv
+[112.977s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/ament_index/resource_index/packages/pid_controller
+[112.978s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pid_controller
+[112.978s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
+[112.978s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-release.cmake
+[112.978s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[112.978s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_targets-extras.cmake
+[112.979s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig.cmake
+[112.979s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig-version.cmake
+[112.979s] -- Installing: /home/gcerioni/ws_ur16/install/pid_controller/share/pid_controller/package.xml
+[112.982s] Invoked command in '/home/gcerioni/ws_ur16/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/controller_manager:/home/gcerioni/ws_ur16/install/hardware_interface_testing:/home/gcerioni/ws_ur16/install/controller_interface:/home/gcerioni/ws_ur16/install/hardware_interface:/home/gcerioni/ws_ur16/install/control_toolbox:/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/controller_manager_msgs:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/controller_manager/lib:/home/gcerioni/ws_ur16/install/hardware_interface_testing/lib:/home/gcerioni/ws_ur16/install/controller_interface/lib:/home/gcerioni/ws_ur16/install/hardware_interface/lib:/home/gcerioni/ws_ur16/install/control_toolbox/lib:/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/controller_manager_msgs/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/controller_manager/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/pid_controller

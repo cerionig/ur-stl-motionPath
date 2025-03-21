@@ -1,0 +1,182 @@
+[0.027s] Invoking command in '/home/gcerioni/ws_ur16/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/Universal_Robots_Client_Library -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/ur_client_library
+[0.256s] -- The C compiler identification is GNU 11.4.0
+[0.487s] -- The CXX compiler identification is GNU 11.4.0
+[0.529s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.735s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.735s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.748s] -- Detecting CXX compiler ABI info
+[1.026s] -- Detecting CXX compiler ABI info - done
+[1.061s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.061s] -- Detecting CXX compile features
+[1.061s] -- Detecting CXX compile features - done
+[1.065s] -- Looking for pthread.h
+[1.337s] -- Looking for pthread.h - found
+[1.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.648s] -- Found Threads: TRUE  
+[1.653s] -- Building tests disabled.
+[1.671s] -- Configuring done
+[1.788s] -- Generating done
+[1.816s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/ur_client_library
+[1.866s] Invoked command in '/home/gcerioni/ws_ur16/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/Universal_Robots_Client_Library -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/ur_client_library
+[1.866s] Invoking command in '/home/gcerioni/ws_ur16/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/ur_client_library -- -j8 -l8
+[3.557s] [  1%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_socket.cpp.o[0m
+[3.557s] [  3%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_sender.cpp.o[0m
+[3.557s] [  4%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_server.cpp.o[0m
+[3.557s] [  6%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/reverse_interface.cpp.o[0m
+[3.557s] [  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_client.cpp.o[0m
+[3.557s] [  9%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_package.cpp.o[0m
+[3.557s] [ 11%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/trajectory_point_interface.cpp.o[0m
+[3.557s] [ 13%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_command_interface.cpp.o[0m
+[4.855s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message.cpp.o[0m
+[5.525s] [ 16%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state.cpp.o[0m
+[5.932s] [ 18%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/version_message.cpp.o[0m
+[6.599s] [ 19%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/error_code_message.cpp.o[0m
+[7.138s] [ 21%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/kinematics_info.cpp.o[0m
+[7.620s] [ 22%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/robot_mode_data.cpp.o[0m
+[7.676s] [ 24%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_pause.cpp.o[0m
+[7.841s] [ 26%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_inputs.cpp.o[0m
+[8.852s] [ 27%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_outputs.cpp.o[0m
+[9.967s] [ 29%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_start.cpp.o[0m
+[10.583s] [ 31%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[10.856s] [ 32%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/get_urcontrol_version.cpp.o[0m
+[10.883s] [ 34%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/request_protocol_version.cpp.o[0m
+[10.889s] [ 36%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_package.cpp.o[0m
+[11.420s] [ 37%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/text_message.cpp.o[0m
+[12.887s] [ 39%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[13.188s] [ 40%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[14.121s] [ 42%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/calibration_checker.cpp.o[0m
+[14.140s] [ 44%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[14.580s] [ 45%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/instruction_executor.cpp.o[0m
+[14.768s] [ 47%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/tool_communication.cpp.o[0m
+[15.774s] [ 49%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/robot_receive_timeout.cpp.o[0m
+[17.434s] [ 50%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/version_information.cpp.o[0m
+[29.589s] [ 52%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/helpers.cpp.o[0m
+[30.973s] [ 54%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/log.cpp.o[0m
+[31.461s] [ 55%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/example_robot_wrapper.cpp.o[0m
+[34.744s] [ 57%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/default_log_handler.cpp.o[0m
+[35.502s] [ 59%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m
+[38.180s] [ 60%] [32m[1mLinking CXX shared library liburcl.so[0m
+[38.367s] [ 60%] Built target urcl
+[38.392s] [ 62%] [32mBuilding CXX object examples/CMakeFiles/driver_example.dir/full_driver.cpp.o[0m
+[39.893s] [ 63%] [32m[1mLinking CXX executable driver_example[0m
+[39.978s] [ 63%] Built target driver_example
+[39.995s] [ 65%] [32mBuilding CXX object examples/CMakeFiles/freedrive_example.dir/freedrive_example.cpp.o[0m
+[41.728s] [ 67%] [32m[1mLinking CXX executable freedrive_example[0m
+[41.869s] [ 67%] Built target freedrive_example
+[41.905s] [ 68%] [32mBuilding CXX object examples/CMakeFiles/force_mode_example.dir/force_mode_example.cpp.o[0m
+[43.805s] [ 70%] [32m[1mLinking CXX executable force_mode_example[0m
+[43.924s] [ 70%] Built target force_mode_example
+[43.947s] [ 72%] [32mBuilding CXX object examples/CMakeFiles/script_sender_example.dir/script_sender.cpp.o[0m
+[44.761s] [ 73%] [32m[1mLinking CXX executable script_sender_example[0m
+[44.878s] [ 73%] Built target script_sender_example
+[44.898s] [ 75%] [32mBuilding CXX object examples/CMakeFiles/trajectory_point_interface_example.dir/trajectory_point_interface.cpp.o[0m
+[46.559s] [ 77%] [32m[1mLinking CXX executable trajectory_point_interface_example[0m
+[46.663s] [ 77%] Built target trajectory_point_interface_example
+[46.685s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/instruction_executor.dir/instruction_executor.cpp.o[0m
+[48.729s] [ 80%] [32m[1mLinking CXX executable instruction_executor[0m
+[48.849s] [ 80%] Built target instruction_executor
+[48.874s] [ 81%] [32mBuilding CXX object examples/CMakeFiles/tool_contact_example.dir/tool_contact_example.cpp.o[0m
+[50.144s] [ 83%] [32m[1mLinking CXX executable tool_contact_example[0m
+[50.239s] [ 83%] Built target tool_contact_example
+[50.258s] [ 85%] [32mBuilding CXX object examples/CMakeFiles/spline_example.dir/spline_example.cpp.o[0m
+[52.093s] [ 86%] [32m[1mLinking CXX executable spline_example[0m
+[52.179s] [ 86%] Built target spline_example
+[52.198s] [ 88%] [32mBuilding CXX object examples/CMakeFiles/dashboard_example.dir/dashboard_example.cpp.o[0m
+[52.823s] [ 90%] [32m[1mLinking CXX executable dashboard_example[0m
+[52.978s] [ 90%] Built target dashboard_example
+[53.005s] [ 91%] [32mBuilding CXX object examples/CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o[0m
+[54.132s] [ 93%] [32m[1mLinking CXX executable rtde_client_example[0m
+[54.218s] [ 93%] Built target rtde_client_example
+[54.236s] [ 95%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_calibration_example.dir/primary_pipeline_calibration.cpp.o[0m
+[55.530s] [ 96%] [32m[1mLinking CXX executable primary_pipeline_calibration_example[0m
+[55.627s] [ 96%] Built target primary_pipeline_calibration_example
+[55.660s] [ 98%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_example.dir/primary_pipeline.cpp.o[0m
+[56.838s] [100%] [32m[1mLinking CXX executable primary_pipeline_example[0m
+[56.937s] [100%] Built target primary_pipeline_example
+[56.951s] Invoked command in '/home/gcerioni/ws_ur16/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/ur_client_library -- -j8 -l8
+[56.953s] Invoking command in '/home/gcerioni/ws_ur16/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/ur_client_library
+[56.961s] -- Install configuration: "Release"
+[56.961s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/lib/liburcl.so
+[56.962s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include
+[56.962s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library
+[56.962s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/version_information.h
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/robot_receive_timeout.h
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/datatypes.h
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/ur_driver.h
+[56.963s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/tool_communication.h
+[56.964s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/ur/instruction_executor.h
+[56.964s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary
+[56.964s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_message
+[56.964s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h
+[56.964s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_message/error_code_message.h
+[56.964s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_message.h
+[56.965s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_state
+[56.965s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_state/robot_mode_data.h
+[56.965s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h
+[56.965s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/primary_consumer.h
+[56.965s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/robot_state.h
+[56.965s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/primary_parser.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/primary_package.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/package_header.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/primary/primary_client.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/exceptions.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/default_log_handler.h
+[56.966s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde
+[56.967s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h
+[56.967s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h
+[56.967s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h
+[56.967s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h
+[56.967s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/data_package.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h
+[56.968s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/package_header.h
+[56.969s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/rtde/text_message.h
+[56.969s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/queue
+[56.969s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/queue/LICENSE.md
+[56.969s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/queue/atomicops.h
+[56.969s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h
+[56.970s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/example_robot_wrapper.h
+[56.970s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/control
+[56.970s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/control/script_sender.h
+[56.970s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/control/reverse_interface.h
+[56.970s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/control/motion_primitives.h
+[56.970s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h
+[56.971s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/control/script_command_interface.h
+[56.971s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/log.h
+[56.971s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/helpers.h
+[56.971s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/types.h
+[56.971s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm
+[56.971s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/pipeline.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/parser.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/tcp_server.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/package.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/control_mode.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/stream.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h
+[56.972s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/socket_t.h
+[56.973s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/bin_parser.h
+[56.973s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/producer.h
+[56.973s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/include/ur_client_library/comm/package_serializer.h
+[56.973s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
+[56.973s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-release.cmake
+[56.973s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/lib/ur_client_library/start_ursim.sh
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/share/ur_client_library/package.xml
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/share/ur_client_library/resources
+[56.974s] -- Installing: /home/gcerioni/ws_ur16/install/ur_client_library/share/ur_client_library/resources/external_control.urscript
+[56.976s] Invoked command in '/home/gcerioni/ws_ur16/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/ur_client_library

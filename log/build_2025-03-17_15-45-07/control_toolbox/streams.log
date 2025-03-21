@@ -1,0 +1,182 @@
+[0.013s] Invoking command in '/home/gcerioni/ws_ur16/build/control_toolbox': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/control_toolbox -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/control_toolbox
+[0.076s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting CXX compiler ABI info
+[0.162s] -- Detecting CXX compiler ABI info - done
+[0.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.176s] -- Detecting CXX compile features
+[0.177s] -- Detecting CXX compile features - done
+[0.181s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.412s] -- Found control_msgs: 4.8.0 (/home/gcerioni/ws_ur16/install/control_msgs/share/control_msgs/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.453s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.608s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.727s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.795s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.803s] -- Looking for C++ include pthread.h
+[0.881s] -- Looking for C++ include pthread.h - found
+[0.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.965s] -- Found Threads: TRUE  
+[1.002s] -- Found realtime_tools: 2.12.0 (/home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake)
+[1.018s] -- Found filters: 2.1.0 (/opt/ros/humble/share/filters/cmake)
+[1.020s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.022s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.040s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.059s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.089s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.091s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.093s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.131s] -- The C compiler identification is GNU 11.4.0
+[1.137s] -- Detecting C compiler ABI info
+[1.202s] -- Detecting C compiler ABI info - done
+[1.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.209s] -- Detecting C compile features
+[1.210s] -- Detecting C compile features - done
+[1.213s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.286s] -- Configuring done
+[1.354s] -- Generating done
+[1.378s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/control_toolbox
+[1.391s] Invoked command in '/home/gcerioni/ws_ur16/build/control_toolbox' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/control_toolbox -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/control_toolbox
+[1.392s] Invoking command in '/home/gcerioni/ws_ur16/build/control_toolbox': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/control_toolbox -- -j8 -l8
+[1.446s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.446s] [  4%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/gcerioni/ws_ur16/build/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp /home/gcerioni/ws_ur16/src/control_toolbox/src/control_filters/rate_limiter_parameters.yaml custom_validators.hpp`[0m
+[1.447s] [  6%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/dither.cpp.o[0m
+[1.449s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/gcerioni/ws_ur16/build/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp /home/gcerioni/ws_ur16/src/control_toolbox/src/control_filters/exponential_filter_parameters.yaml custom_validators.hpp`[0m
+[1.449s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.453s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.453s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/gcerioni/ws_ur16/build/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp /home/gcerioni/ws_ur16/src/control_toolbox/src/control_filters/low_pass_filter_parameters.yaml `[0m
+[1.852s] [ 16%] [34m[1mCreating deprecated header file /home/gcerioni/ws_ur16/build/control_toolbox/include/exponential_filter_parameters.hpp[0m
+[1.947s] [ 18%] [34m[1mCreating deprecated header file /home/gcerioni/ws_ur16/build/control_toolbox/include/low_pass_filter_parameters.hpp[0m
+[1.971s] [ 18%] Built target exponential_filter_parameters
+[2.008s] [ 20%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/limited_proxy.cpp.o[0m
+[2.047s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.064s] [ 22%] Built target low_pass_filter_parameters
+[2.096s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.457s] [ 27%] [34m[1mCreating deprecated header file /home/gcerioni/ws_ur16/build/control_toolbox/include/rate_limiter_parameters.hpp[0m
+[2.610s] [ 27%] Built target rate_limiter_parameters
+[2.684s] [ 29%] [32mBuilding CXX object CMakeFiles/exponential_filter.dir/src/control_filters/exponential_filter.cpp.o[0m
+[3.407s] [ 31%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/pid_ros.cpp.o[0m
+[3.445s] [ 33%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/pid.cpp.o[0m
+[4.712s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.891s] [ 35%] Built target gtest_main
+[4.947s] [ 37%] [32mBuilding CXX object CMakeFiles/low_pass_filter.dir/src/control_filters/low_pass_filter.cpp.o[0m
+[6.258s] [ 39%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/sine_sweep.cpp.o[0m
+[6.305s] [ 41%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.476s] [ 41%] Built target gmock_main
+[6.550s] [ 43%] [32mBuilding CXX object CMakeFiles/rate_limiter.dir/src/control_filters/rate_limiter.cpp.o[0m
+[8.853s] [ 45%] [32mBuilding CXX object CMakeFiles/control_toolbox.dir/src/sinusoid.cpp.o[0m
+[13.001s] [ 47%] [32m[1mLinking CXX shared library libexponential_filter.so[0m
+[13.030s] [ 50%] [32m[1mLinking CXX shared library libcontrol_toolbox.so[0m
+[13.297s] [ 50%] Built target control_toolbox
+[13.310s] [ 50%] Built target exponential_filter
+[15.892s] [ 52%] [32m[1mLinking CXX shared library liblow_pass_filter.so[0m
+[16.059s] [ 52%] Built target low_pass_filter
+[16.782s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.874s] [ 54%] Built target gtest
+[16.901s] [ 58%] [32mBuilding CXX object CMakeFiles/pid_parameters_tests.dir/test/pid_parameters_tests.cpp.o[0m
+[16.901s] [ 58%] [32mBuilding CXX object CMakeFiles/pid_publisher_tests.dir/test/pid_publisher_tests.cpp.o[0m
+[17.122s] [ 60%] [32m[1mLinking CXX shared library librate_limiter.so[0m
+[17.233s] [ 60%] Built target rate_limiter
+[17.406s] [ 62%] [32m[1mLinking CXX static library libgmock.a[0m
+[17.472s] [ 62%] Built target gmock
+[17.493s] [ 64%] [32mBuilding CXX object CMakeFiles/pid_tests.dir/test/pid_tests.cpp.o[0m
+[17.494s] [ 66%] [32mBuilding CXX object CMakeFiles/rate_limiter_tests.dir/test/rate_limiter.cpp.o[0m
+[18.512s] [ 68%] [32mBuilding CXX object CMakeFiles/test_load_low_pass_filter.dir/test/control_filters/test_load_low_pass_filter.cpp.o[0m
+[19.532s] [ 70%] [32mBuilding CXX object CMakeFiles/test_low_pass_filter.dir/test/control_filters/test_low_pass_filter.cpp.o[0m
+[20.555s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_exponential_filter.dir/test/control_filters/test_load_exponential_filter.cpp.o[0m
+[20.698s] [ 75%] [32m[1mLinking CXX executable rate_limiter_tests[0m
+[20.963s] [ 75%] Built target rate_limiter_tests
+[20.990s] [ 77%] [32mBuilding CXX object CMakeFiles/test_exponential_filter.dir/test/control_filters/test_exponential_filter.cpp.o[0m
+[21.021s] [ 79%] [32mBuilding CXX object CMakeFiles/test_rate_limiter.dir/test/control_filters/test_rate_limiter.cpp.o[0m
+[21.026s] [ 81%] [32m[1mLinking CXX executable pid_tests[0m
+[21.405s] [ 81%] Built target pid_tests
+[21.445s] [ 83%] [32mBuilding CXX object CMakeFiles/test_load_rate_limiter.dir/test/control_filters/test_load_rate_limiter.cpp.o[0m
+[25.510s] [ 85%] [32m[1mLinking CXX executable pid_parameters_tests[0m
+[25.876s] [ 85%] Built target pid_parameters_tests
+[31.907s] [ 87%] [32m[1mLinking CXX executable test_exponential_filter[0m
+[32.165s] [ 87%] Built target test_exponential_filter
+[32.935s] [ 89%] [32m[1mLinking CXX executable test_low_pass_filter[0m
+[33.155s] [ 89%] Built target test_low_pass_filter
+[33.968s] [ 91%] [32m[1mLinking CXX executable pid_publisher_tests[0m
+[34.102s] [ 93%] [32m[1mLinking CXX executable test_rate_limiter[0m
+[34.266s] [ 93%] Built target pid_publisher_tests
+[34.291s] [ 93%] Built target test_rate_limiter
+[36.874s] [ 95%] [32m[1mLinking CXX executable test_load_exponential_filter[0m
+[37.027s] [ 95%] Built target test_load_exponential_filter
+[37.140s] [ 97%] [32m[1mLinking CXX executable test_load_rate_limiter[0m
+[37.318s] [ 97%] Built target test_load_rate_limiter
+[37.457s] [100%] [32m[1mLinking CXX executable test_load_low_pass_filter[0m
+[37.653s] [100%] Built target test_load_low_pass_filter
+[37.667s] Invoked command in '/home/gcerioni/ws_ur16/build/control_toolbox' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/control_toolbox -- -j8 -l8
+[37.669s] Invoking command in '/home/gcerioni/ws_ur16/build/control_toolbox': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/control_toolbox
+[37.676s] -- Install configuration: "Release"
+[37.676s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox
+[37.676s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[37.676s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[37.676s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[37.676s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/rate_limiter_parameters.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/custom_validators.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/exponential_filter_parameters.hpp
+[37.677s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/low_pass_filter_parameters.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/control_filters.xml
+[37.678s] -- Up-to-date: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_filters
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_filters/custom_validators.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_filters/rate_limiter.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_filters/exponential_filter.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_filters/low_pass_filter.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/pid_ros.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/dither.hpp
+[37.678s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/rate_limiter.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/sinusoid.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/limited_proxy.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/filters.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/low_pass_filter.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/sine_sweep.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/include/control_toolbox/control_toolbox/pid.hpp
+[37.679s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/lib/libcontrol_toolbox.so
+[37.680s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/control_toolbox/lib/libcontrol_toolbox.so" to ""
+[37.680s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/lib/liblow_pass_filter.so
+[37.680s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/control_toolbox/lib/liblow_pass_filter.so" to ""
+[37.680s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/lib/librate_limiter.so
+[37.681s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/control_toolbox/lib/librate_limiter.so" to ""
+[37.681s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/lib/libexponential_filter.so
+[37.681s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/control_toolbox/lib/libexponential_filter.so" to ""
+[37.682s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/environment/library_path.sh
+[37.682s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/environment/library_path.dsv
+[37.682s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/ament_index/resource_index/package_run_dependencies/control_toolbox
+[37.682s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/ament_index/resource_index/parent_prefix_path/control_toolbox
+[37.682s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.sh
+[37.682s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/environment/ament_prefix_path.dsv
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/environment/path.sh
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/environment/path.dsv
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/local_setup.bash
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/local_setup.sh
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/local_setup.zsh
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/local_setup.dsv
+[37.683s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/package.dsv
+[37.684s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/ament_index/resource_index/packages/control_toolbox
+[37.684s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/ament_index/resource_index/filters__pluginlib__plugin/control_toolbox
+[37.684s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport.cmake
+[37.684s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake/export_control_toolboxExport-release.cmake
+[37.684s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.684s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[37.685s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig.cmake
+[37.685s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/cmake/control_toolboxConfig-version.cmake
+[37.685s] -- Installing: /home/gcerioni/ws_ur16/install/control_toolbox/share/control_toolbox/package.xml
+[37.687s] Invoked command in '/home/gcerioni/ws_ur16/build/control_toolbox' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/realtime_tools:/home/gcerioni/ws_ur16/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/realtime_tools/lib:/home/gcerioni/ws_ur16/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gcerioni/ws_ur16/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/control_toolbox

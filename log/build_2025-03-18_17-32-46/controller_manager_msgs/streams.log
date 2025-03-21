@@ -1,0 +1,478 @@
+[0.085s] Invoking command in '/home/gcerioni/ws_ur16/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/controller_manager_msgs
+[0.118s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.490s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.585s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.299s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.301s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.301s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.306s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.535s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.612s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.613s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.613s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.779s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.781s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.805s] -- Configuring done
+[2.925s] -- Generating done
+[2.963s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/controller_manager_msgs
+[2.972s] Invoked command in '/home/gcerioni/ws_ur16/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/controller_manager_msgs
+[2.973s] Invoking command in '/home/gcerioni/ws_ur16/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/controller_manager_msgs -- -j8 -l8
+[3.128s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_generator_c[0m
+[3.152s] [  0%] Built target controller_manager_msgs__cpp
+[3.202s] [ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[3.207s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_cpp[0m
+[3.228s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.235s] [ 12%] Built target ament_cmake_python_copy_controller_manager_msgs
+[3.246s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.275s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_c[0m
+[3.298s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c[0m
+[3.311s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.324s] [ 24%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[3.331s] [ 36%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[3.335s] [ 48%] Built target controller_manager_msgs__rosidl_typesupport_c
+[3.364s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[3.380s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[3.415s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[3.515s] [ 84%] Built target controller_manager_msgs
+[3.570s] [ 85%] Built target controller_manager_msgs__py
+[3.636s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_generator_py[0m
+[3.710s] [ 96%] Built target controller_manager_msgs__rosidl_generator_py
+[3.756s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_c__pyext[0m
+[3.758s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.758s] [35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.804s] [ 98%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[3.826s] [ 99%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.830s] [100%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[3.857s] running egg_info
+[3.857s] writing controller_manager_msgs.egg-info/PKG-INFO
+[3.857s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[3.858s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[3.863s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[3.863s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[3.924s] [100%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[3.946s] Invoked command in '/home/gcerioni/ws_ur16/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/controller_manager_msgs -- -j8 -l8
+[3.947s] Invoking command in '/home/gcerioni/ws_ur16/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/controller_manager_msgs
+[3.985s] -- Install configuration: "Release"
+[3.985s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[3.985s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[3.985s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[3.985s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.h
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.c
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.h
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.h
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.h
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.h
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.c
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[3.986s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.h
+[3.987s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[3.991s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[3.991s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[3.991s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.h
+[3.991s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.c
+[3.991s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.c
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.h
+[3.992s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.c
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.h
+[3.993s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[3.994s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.c
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.c
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.c
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.c
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[3.995s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.c
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.c
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.h
+[3.996s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.h
+[3.997s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[3.998s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[3.998s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[3.998s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[3.998s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[3.998s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[4.000s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_c.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[4.001s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[4.004s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[4.004s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[4.005s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_c.h
+[4.005s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[4.006s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[4.006s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[4.007s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[4.009s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[4.011s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[4.011s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[4.011s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.hpp
+[4.011s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[4.012s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[4.012s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp
+[4.012s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[4.012s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.hpp
+[4.012s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp
+[4.012s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp
+[4.014s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.hpp
+[4.014s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.hpp
+[4.014s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.hpp
+[4.014s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__builder.hpp
+[4.014s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[4.015s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__builder.hpp
+[4.015s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[4.015s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[4.015s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[4.019s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp
+[4.019s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.hpp
+[4.019s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.hpp
+[4.019s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp
+[4.020s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[4.021s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.hpp
+[4.022s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.hpp
+[4.023s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp
+[4.024s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp
+[4.025s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp
+[4.026s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_cpp.hpp
+[4.027s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/dds_fastrtps
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.028s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/dds_fastrtps
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_cpp.hpp
+[4.029s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[4.030s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[4.030s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.032s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.c
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_c.h
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_c.h
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c
+[4.033s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.c
+[4.037s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.c
+[4.038s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.039s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[4.040s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[4.040s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[4.041s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c
+[4.041s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c
+[4.042s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_c.h
+[4.042s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[4.043s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.c
+[4.043s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.c
+[4.044s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[4.045s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.c
+[4.050s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.c
+[4.050s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[4.051s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[4.051s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c
+[4.052s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[4.052s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.c
+[4.052s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[4.053s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.c
+[4.053s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c
+[4.056s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[4.058s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_c.h
+[4.066s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[4.074s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_cpp.hpp
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.cpp
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[4.076s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.cpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[4.077s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.cpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_cpp.hpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.cpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[4.078s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.cpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[4.079s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[4.085s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[4.088s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[4.092s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[4.092s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.48.0-py3.10.egg-info
+[4.094s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.48.0-py3.10.egg-info/top_level.txt
+[4.094s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.48.0-py3.10.egg-info/SOURCES.txt
+[4.094s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.48.0-py3.10.egg-info/dependency_links.txt
+[4.095s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.48.0-py3.10.egg-info/PKG-INFO
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state_s.c
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection_s.c
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state.py
+[4.095s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection.py
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface.py
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/__init__.py
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state.py
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state_s.c
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface_s.c
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/libcontroller_manager_msgs__rosidl_generator_py.so
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.096s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.097s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/__init__.py
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller.py
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller_s.c
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces_s.c
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[4.097s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries_s.c
+[4.098s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller.py
+[4.102s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types.py
+[4.102s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components_s.c
+[4.103s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller.py
+[4.103s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller_s.c
+[4.104s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers_s.c
+[4.105s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/__init__.py
+[4.105s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types_s.c
+[4.105s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers.py
+[4.105s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller.py
+[4.107s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller_s.c
+[4.107s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state_s.c
+[4.107s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller_s.c
+[4.107s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[4.107s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state.py
+[4.108s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components.py
+[4.122s] Listing '/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs'...
+[4.122s] Compiling '/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/__init__.py'...
+[4.122s] Listing '/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg'...
+[4.128s] Listing '/home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv'...
+[4.141s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.141s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.141s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.141s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so
+[4.148s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[4.149s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.idl
+[4.149s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.idl
+[4.149s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[4.152s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[4.152s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[4.152s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[4.153s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[4.156s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.msg
+[4.156s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.msg
+[4.156s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[4.156s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Request.msg
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Response.msg
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[4.157s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.srv
+[4.163s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Request.msg
+[4.163s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Response.msg
+[4.164s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[4.164s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Request.msg
+[4.164s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Response.msg
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.srv
+[4.165s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Request.msg
+[4.166s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Response.msg
+[4.166s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[4.167s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[4.167s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[4.169s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[4.170s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[4.170s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[4.171s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[4.172s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[4.172s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[4.172s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[4.174s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[4.174s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[4.174s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[4.175s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[4.176s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[4.176s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[4.176s] -- Installing: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[4.177s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[4.177s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport.cmake
+[4.177s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport-release.cmake
+[4.178s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.180s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.182s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cppExport.cmake
+[4.182s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.182s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.183s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.185s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[4.185s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[4.185s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-release.cmake
+[4.186s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.186s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.186s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[4.186s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-release.cmake
+[4.187s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport.cmake
+[4.187s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport-release.cmake
+[4.187s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[4.187s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.187s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.188s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.189s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.189s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.190s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.191s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[4.192s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[4.192s] -- Up-to-date: /home/gcerioni/ws_ur16/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[4.201s] Invoked command in '/home/gcerioni/ws_ur16/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/controller_manager_msgs

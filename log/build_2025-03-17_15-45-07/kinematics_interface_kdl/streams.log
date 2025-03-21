@@ -1,0 +1,92 @@
+[0.006s] Invoking command in '/home/gcerioni/ws_ur16/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/kinematics_interface/kinematics_interface_kdl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/kinematics_interface_kdl
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting CXX compiler ABI info
+[0.245s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.482s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.645s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.675s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.677s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.677s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.689s] -- Found kinematics_interface: 0.3.0 (/home/gcerioni/ws_ur16/install/kinematics_interface/share/kinematics_interface/cmake)
+[0.745s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.767s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.787s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.889s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.018s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.062s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.126s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.140s] -- Looking for C++ include pthread.h
+[1.244s] -- Looking for C++ include pthread.h - found
+[1.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.363s] -- Found Threads: TRUE  
+[1.519s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.560s] -- Found tf2_eigen_kdl: 0.25.11 (/opt/ros/humble/share/tf2_eigen_kdl/cmake)
+[1.600s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.601s] -- Found ros2_control_test_assets: 2.48.0 (/home/gcerioni/ws_ur16/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.605s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.664s] -- The C compiler identification is GNU 11.4.0
+[1.673s] -- Detecting C compiler ABI info
+[1.768s] -- Detecting C compiler ABI info - done
+[1.781s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.782s] -- Detecting C compile features
+[1.782s] -- Detecting C compile features - done
+[1.788s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.789s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.896s] -- Configuring done
+[1.951s] -- Generating done
+[1.970s] -- Build files have been written to: /home/gcerioni/ws_ur16/build/kinematics_interface_kdl
+[1.997s] Invoked command in '/home/gcerioni/ws_ur16/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/gcerioni/ws_ur16/src/kinematics_interface/kinematics_interface_kdl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/kinematics_interface_kdl
+[2.000s] Invoking command in '/home/gcerioni/ws_ur16/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/kinematics_interface_kdl -- -j8 -l8
+[2.074s] [ 11%] [32mBuilding CXX object CMakeFiles/kinematics_interface_kdl.dir/src/kinematics_interface_kdl.cpp.o[0m
+[10.999s] [ 22%] [32m[1mLinking CXX shared library libkinematics_interface_kdl.so[0m
+[11.174s] [ 22%] Built target kinematics_interface_kdl
+[11.199s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[18.462s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[21.753s] [ 55%] [32m[1mLinking CXX static library libgmock.a[0m
+[21.818s] [ 55%] Built target gmock
+[21.839s] [ 66%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[23.509s] [ 77%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[23.570s] [ 77%] Built target gmock_main
+[23.589s] [ 88%] [32mBuilding CXX object CMakeFiles/test_kinematics_interface_kdl.dir/test/test_kinematics_interface_kdl.cpp.o[0m
+[34.728s] [100%] [32m[1mLinking CXX executable test_kinematics_interface_kdl[0m
+[34.905s] [100%] Built target test_kinematics_interface_kdl
+[34.916s] Invoked command in '/home/gcerioni/ws_ur16/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/kinematics_interface_kdl -- -j8 -l8
+[34.918s] Invoking command in '/home/gcerioni/ws_ur16/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/kinematics_interface_kdl
+[34.926s] -- Install configuration: "Release"
+[34.927s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/kinematics_interface_kdl.xml
+[34.927s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/include/kinematics_interface_kdl
+[34.927s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/include/kinematics_interface_kdl/kinematics_interface_kdl
+[34.927s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/include/kinematics_interface_kdl/kinematics_interface_kdl/kinematics_interface_kdl.hpp
+[34.927s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so
+[34.928s] -- Set runtime path of "/home/gcerioni/ws_ur16/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so" to ""
+[34.928s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.sh
+[34.928s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.dsv
+[34.929s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/ament_index/resource_index/package_run_dependencies/kinematics_interface_kdl
+[34.929s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/ament_index/resource_index/parent_prefix_path/kinematics_interface_kdl
+[34.929s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.sh
+[34.929s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.dsv
+[34.930s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.sh
+[34.930s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.dsv
+[34.930s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.bash
+[34.930s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.sh
+[34.930s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.zsh
+[34.930s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.dsv
+[34.931s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.dsv
+[34.931s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/ament_index/resource_index/packages/kinematics_interface_kdl
+[34.931s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/ament_index/resource_index/kinematics_interface__pluginlib__plugin/kinematics_interface_kdl
+[34.931s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport.cmake
+[34.931s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport-release.cmake
+[34.932s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_targets-extras.cmake
+[34.932s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.932s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig.cmake
+[34.932s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig-version.cmake
+[34.932s] -- Installing: /home/gcerioni/ws_ur16/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.xml
+[34.935s] Invoked command in '/home/gcerioni/ws_ur16/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gcerioni/ws_ur16/install/ros2_control_test_assets:/home/gcerioni/ws_ur16/install/kinematics_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/gcerioni/ws_ur16/install/kinematics_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/kinematics_interface_kdl

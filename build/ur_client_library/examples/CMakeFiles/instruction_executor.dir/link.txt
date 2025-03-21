@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -pedantic -O3 -DNDEBUG CMakeFiles/instruction_executor.dir/instruction_executor.cpp.o -o instruction_executor  -Wl,-rpath,/home/gcerioni/ws_ur16/build/ur_client_library ../liburcl.so 

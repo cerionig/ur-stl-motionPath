@@ -1,0 +1,44 @@
+[1.154s] Invoking command in '/home/gcerioni/ws_ur16/src/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build install --record /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data
+[1.817s] running egg_info
+[1.818s] creating ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info
+[1.818s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[1.818s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[1.818s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[1.818s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[1.818s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[1.818s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.819s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.819s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.819s] running build
+[1.819s] running build_py
+[1.819s] creating /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build
+[1.819s] creating /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib
+[1.819s] creating /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.819s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.819s] copying ros2_controllers_test_nodes/__init__.py -> /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.819s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.820s] running install
+[1.820s] running install_lib
+[1.820s] creating /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.820s] copying /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.820s] copying /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.820s] copying /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.820s] byte-compiling /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+[1.820s] byte-compiling /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+[1.820s] byte-compiling /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+[1.820s] running install_data
+[1.821s] creating /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ament_index
+[1.821s] creating /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[1.821s] creating /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[1.821s] copying resource/ros2_controllers_test_nodes -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[1.821s] copying package.xml -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[1.821s] creating /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[1.821s] copying test/rrbot_joint_trajectory_publisher.yaml -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[1.822s] copying test/rrbot_forward_position_publisher.yaml -> /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[1.822s] running install_egg_info
+[1.822s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.43.0-py3.10.egg-info
+[1.822s] running install_scripts
+[1.822s] Installing publisher_forward_position_controller script to /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.823s] Installing publisher_joint_trajectory_controller script to /home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.823s] writing list of installed files to '/home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/install.log'
+[1.838s] Invoked command in '/home/gcerioni/ws_ur16/src/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/build install --record /home/gcerioni/ws_ur16/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data

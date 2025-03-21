@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-003fb84e5623471852c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Release-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_client_library",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ur_driver_examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "dashboard_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-dashboard_example-Release-886ca38e5d9fc7fbc7ef.json",
+					"name" : "dashboard_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "driver_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-driver_example-Release-46a4063c9c8ea02c8494.json",
+					"name" : "driver_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "force_mode_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-force_mode_example-Release-7e1ce2103b4a48cca4f3.json",
+					"name" : "force_mode_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freedrive_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freedrive_example-Release-89e477b23984a3c9595d.json",
+					"name" : "freedrive_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "instruction_executor::@714eac15f71a94114fdf",
+					"jsonFile" : "target-instruction_executor-Release-37ddfb28e2caf61a2476.json",
+					"name" : "instruction_executor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "primary_pipeline_calibration_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-primary_pipeline_calibration_example-Release-73bf7720cf110dede628.json",
+					"name" : "primary_pipeline_calibration_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "primary_pipeline_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-primary_pipeline_example-Release-b0730c099661c693bf7a.json",
+					"name" : "primary_pipeline_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtde_client_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-rtde_client_example-Release-bd4b206026e13ce73425.json",
+					"name" : "rtde_client_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "script_sender_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-script_sender_example-Release-e6c25a5598b9ca9bc679.json",
+					"name" : "script_sender_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spline_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-spline_example-Release-a73dfdadfa5f804652f7.json",
+					"name" : "spline_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tool_contact_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tool_contact_example-Release-5579fed13c6d42d7a396.json",
+					"name" : "tool_contact_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trajectory_point_interface_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-trajectory_point_interface_example-Release-1c96de19da6dc1c49d3a.json",
+					"name" : "trajectory_point_interface_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urcl-Release-559b5ed811632c354a1a.json",
+					"name" : "urcl",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gcerioni/ws_ur16/build/ur_client_library",
+		"source" : "/home/gcerioni/ws_ur16/src/Universal_Robots_Client_Library"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

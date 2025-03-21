@@ -1,0 +1,14 @@
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Analog.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Digital.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/IOStates.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotStateRTMsg.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/MasterboardDataMsg.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotModeDataMsg.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:msg/ToolDataMsg.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetAnalogOutput.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetPayload.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetSpeedSliderFraction.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetIO.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:srv/GetRobotSoftwareVersion.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetForceMode.idl
+/home/gcerioni/ws_ur16/build/ur_msgs/rosidl_adapter/ur_msgs:action/ToolContact.idl

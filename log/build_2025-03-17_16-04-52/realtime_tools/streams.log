@@ -1,0 +1,62 @@
+[0.076s] Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/realtime_tools -- -j8 -l8
+[0.250s] [  9%] Built target gmock
+[0.256s] [ 15%] Built target gmock_main
+[0.264s] [ 21%] Built target thread_priority
+[0.291s] [ 31%] Built target realtime_tools
+[0.487s] [ 37%] Built target realtime_box_best_effort_tests
+[0.524s] [ 43%] Built target thread_priority_tests
+[0.542s] [ 50%] Built target lock_free_queue_tests
+[0.558s] [ 56%] Built target realtime_buffer_tests
+[0.572s] [ 62%] Built target realtime_publisher_tests_non_polling
+[0.573s] [ 68%] Built target realtime_box_tests
+[0.573s] [ 75%] Built target realtime_publisher_tests
+[0.576s] [ 81%] Built target realtime_clock_tests
+[0.652s] [ 87%] Built target realtime_mutex_tests
+[0.673s] [ 93%] Built target test_async_function_handler
+[0.688s] [100%] Built target realtime_server_goal_handle_tests
+[1.057s] Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/realtime_tools -- -j8 -l8
+[1.059s] Invoking command in '/home/gcerioni/ws_ur16/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/realtime_tools
+[1.126s] -- Install configuration: "Release"
+[1.126s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools
+[1.126s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools
+[1.126s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[1.127s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/async_function_handler.hpp
+[1.127s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.hpp
+[1.127s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[1.127s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/mutex.hpp
+[1.127s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.hpp
+[1.127s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.hpp
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.hpp
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.hpp
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.hpp
+[1.128s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.h
+[1.130s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/lock_free_queue.hpp
+[1.132s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[1.132s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_helpers.hpp
+[1.132s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/lib/librealtime_tools.so
+[1.133s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/lib/libthread_priority.so
+[1.133s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[1.133s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[1.134s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[1.134s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[1.134s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[1.134s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[1.134s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/path.sh
+[1.134s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[1.135s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.bash
+[1.135s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.sh
+[1.135s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[1.135s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[1.135s] -- Installing: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.dsv
+[1.136s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[1.136s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[1.136s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-release.cmake
+[1.136s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[1.137s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.137s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[1.137s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[1.137s] -- Up-to-date: /home/gcerioni/ws_ur16/install/realtime_tools/share/realtime_tools/package.xml
+[1.181s] Invoked command in '/home/gcerioni/ws_ur16/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gcerioni/ws_ur16/install/rqt_joint_trajectory_controller:/home/gcerioni/ws_ur16/install/rqt_controller_manager:/home/gcerioni/ws_ur16/install/ros2controlcli:/home/gcerioni/ws_ur16/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/realtime_tools

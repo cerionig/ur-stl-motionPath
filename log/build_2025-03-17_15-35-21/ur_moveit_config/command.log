@@ -1,0 +1,6 @@
+Invoking command in '/home/gcerioni/ws_ur16/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/ur_moveit_config
+Invoked command in '/home/gcerioni/ws_ur16/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gcerioni/ws_ur16/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/gcerioni/ws_ur16/install/ur_moveit_config
+Invoking command in '/home/gcerioni/ws_ur16/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/ur_moveit_config -- -j8 -l8
+Invoked command in '/home/gcerioni/ws_ur16/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gcerioni/ws_ur16/build/ur_moveit_config -- -j8 -l8
+Invoking command in '/home/gcerioni/ws_ur16/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/ur_moveit_config
+Invoked command in '/home/gcerioni/ws_ur16/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gcerioni/ws_ur16/build/ur_moveit_config
