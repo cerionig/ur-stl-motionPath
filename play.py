@@ -8,6 +8,7 @@ import argparse
 import robot_control
 import stl_reader
 
+
 def main():
     print("Code initiation")
     time.sleep(0.3)
@@ -38,13 +39,16 @@ def main():
                         help='Scale factor for STL vertices (default 0.001 for mm to m)')
     parser.add_argument('--z_offset', type=float, default=0.01,
                         help='Z-offset to add to all movements (default: 0.01m)')
+    parser.add_argument('--safety_height', type=float, default=0.05,
+                        help='Height to lift nozzle for safety movements (default: 0.05m)')
+    
     args = parser.parse_args()
     
-    # Move to home position
+    # Move to home position with safety height
     print("Sending Home")
-    robot_control.home(rtde_c, 0.5, 0.5)
+    robot_control.home(rtde_c, rtde_r, 0.5, 0.5)  # Note: now passing both rtde_c and rtde_r
     
-    # Move to origin
+    # Move to origin with safety height
     print("Moving to part origin")
     robot_control.origin(rtde_c, rtde_r, acc, vel)
     
@@ -54,16 +58,23 @@ def main():
     elif args.mode == 'stl_full' and args.stl:
         # Pass the scale factor to the execute_stl_path function
         robot_control.execute_stl_path(rtde_r, rtde_c, args.stl, acc, vel, 
-                                      z_offset=args.z_offset, scale_factor=args.scale)
+                                      z_offset=args.z_offset, 
+                                      scale_factor=args.scale,
+                                      safety_height=args.safety_height)
     elif args.mode == 'stl_contour' and args.stl:
         # Pass the scale factor to the trace_stl_contour function
         robot_control.trace_stl_contour(rtde_r, rtde_c, args.stl, acc, vel, 
-                                       z_offset=args.z_offset, scale_factor=args.scale)
+                                       z_offset=args.z_offset, 
+                                       scale_factor=args.scale,
+                                       safety_height=args.safety_height)
     else:
         if args.mode != 'house' and not args.stl:
             print("Error: STL file path required for stl_full or stl_contour modes")
         else:
             print(f"Unknown mode: {args.mode}")
+    
+    # Move to a safe height before disconnecting
+    robot_control.move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=args.safety_height)
     
     # Disconnect from the robot
     rtde_c.disconnect()

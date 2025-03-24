@@ -139,6 +139,32 @@ def scale_vertices(vertices, scale_factor=1.0):
     print(f"Scaling vertices by factor {scale_factor}")
     return [(x * scale_factor, y * scale_factor, z * scale_factor) for x, y, z in vertices]
 
+def align_to_bottom_left(vertices, z_keep_min=True):
+    """
+    Align vertices so that the bottom-left corner is at the origin.
+    "Bottom left" means minimum X and minimum Y.
+    For Z, we can keep it at the minimum or preserve its position relative to XY plane.
+    
+    Args:
+        vertices (list): List of vertices (each vertex is a tuple of x, y, z coordinates)
+        z_keep_min (bool): If True, move Z minimum to 0. If False, preserve Z positions.
+        
+    Returns:
+        list: Aligned vertices
+    """
+    if not vertices:
+        return []
+    
+    # Find the minimum x, y, and z coordinates
+    min_x = min(v[0] for v in vertices)
+    min_y = min(v[1] for v in vertices)
+    min_z = min(v[2] for v in vertices) if z_keep_min else 0
+    
+    print(f"Aligning to bottom-left corner: ({min_x:.4f}, {min_y:.4f}, {min_z:.4f})")
+    
+    # Shift vertices so bottom-left corner is at (0,0,0) or (0,0,min_z)
+    return [(x - min_x, y - min_y, z - min_z if z_keep_min else z) for x, y, z in vertices]
+
 def center_vertices(vertices):
     """
     Center vertices around the origin.
@@ -251,10 +277,7 @@ def stl_to_robot_path(vertices, z_slices=1):
         
     Returns:
         list: List of paths, where each path is a list of vertices
-    """
-    # Center vertices
-    vertices = center_vertices(vertices)
-    
+    """    
     # Find min/max z
     min_z = min(z for _, _, z in vertices)
     max_z = max(z for _, _, z in vertices)
@@ -359,6 +382,12 @@ def visualize_vertices(vertices, title="STL Visualization"):
     y = [v[1] for v in vertices]
     z = [v[2] for v in vertices]
     
+    # Calculate bounding box
+    min_x, max_x = min(x), max(x)
+    min_y, max_y = min(y), max(y)
+    min_z, max_z = min(z), max(z)
+    dimensions = f"Width: {max_x-min_x:.4f}, Depth: {max_y-min_y:.4f}, Height: {max_z-min_z:.4f}"
+    
     # Create the 3D plot
     fig = plt.figure(figsize=(10, 8))
     ax = fig.add_subplot(111, projection='3d')
@@ -366,13 +395,11 @@ def visualize_vertices(vertices, title="STL Visualization"):
     # Plot the vertices
     ax.scatter(x, y, z, c='b', marker='o', s=10, alpha=0.5)
     
-    # Plot the bounding box
-    min_x, max_x = min(x), max(x)
-    min_y, max_y = min(y), max(y)
-    min_z, max_z = min(z), max(z)
+    # Plot the bottom-left corner
+    ax.scatter([min_x], [min_y], [min_z], c='r', marker='o', s=100)
+    ax.text(min_x, min_y, min_z, "Origin", color='red')
     
     # Add bounding box dimensions to title
-    dimensions = f"Width: {max_x-min_x:.4f}, Depth: {max_y-min_y:.4f}, Height: {max_z-min_z:.4f}"
     title = f"{title}\n{dimensions}"
     
     # Set labels and title
@@ -406,6 +433,8 @@ def main():
     parser.add_argument('--slice', type=int, default=1, help='Number of z-slices to create')
     parser.add_argument('--visualize', action='store_true', help='Visualize the STL file')
     parser.add_argument('--contour', action='store_true', help='Extract and show contour only')
+    parser.add_argument('--bottom-left-origin', action='store_true', 
+                        help='Align to bottom-left corner as origin (default is centered)')
     
     args = parser.parse_args()
     
@@ -431,6 +460,14 @@ def main():
                 info = get_stl_info(vertices)
                 print(json.dumps(info, indent=2))
         
+        # Apply alignment if requested
+        if args.bottom_left_origin:
+            vertices = align_to_bottom_left(vertices)
+            if args.info:
+                print("\nAligned STL File Information:")
+                info = get_stl_info(vertices)
+                print(json.dumps(info, indent=2))
+        
         # Extract contour if requested
         processed_vertices = vertices
         if args.contour:
@@ -451,6 +488,8 @@ def main():
                         title += " (Contour Only)"
                     if args.scale != 1.0:
                         title += f" (Scaled by {args.scale})"
+                    if args.bottom_left_origin:
+                        title += " (Bottom-Left Origin)"
                     
                     visualize_vertices(flattened_path, title)
         else:
@@ -465,6 +504,8 @@ def main():
                     title += " (Contour Only)"
                 if args.scale != 1.0:
                     title += f" (Scaled by {args.scale})"
+                if args.bottom_left_origin:
+                    title += " (Bottom-Left Origin)"
                 
                 visualize_vertices(processed_vertices, title)
         

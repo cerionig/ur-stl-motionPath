@@ -14,24 +14,35 @@ def sind(a):
     """Sine of angle in degrees"""
     return np.sin(deg2rad(a)) 
 
-def home(robot, acc, vel):
+def move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=0.05):
     """
-    Move robot to home position.
+    Move the robot to a safe height above its current position.
     
     Args:
-        robot: RTDE Control interface
+        rtde_c: RTDE Control interface
+        rtde_r: RTDE Receive interface
         acc (float): Acceleration for the movement
         vel (float): Velocity for the movement
+        height_offset (float): How much to lift in meters
     """
-    # Move to a space that will not obstruct the object being printed
-    home_pose = (deg2rad(180), deg2rad(-45), deg2rad(-135), deg2rad(-180), deg2rad(-90), deg2rad(0))
-    robot.moveJ(home_pose, acc, vel)
-    print("Home position reached")
-    time.sleep(1)  # Delay between moves to catch any errors
+    # Get current position
+    current_pose = rtde_r.getActualTCPPose()
+    
+    # Create a safe position (same XY, higher Z)
+    safe_pose = current_pose.copy()
+    safe_pose[2] += height_offset
+    
+    # Move to safe height
+    print(f"Moving to safe height: {safe_pose[2]:.4f}m (+{height_offset:.2f}m)")
+    rtde_c.moveL(safe_pose, acc, vel)
+    time.sleep(0.5)  # Small delay for stability
+    
+    return safe_pose
 
-def origin(rtde_c, rtde_r, acc, vel):
+
+def home(rtde_c, rtde_r, acc, vel):
     """
-    Move robot to the origin position.
+    Move robot to home position with safety movement.
     
     Args:
         rtde_c: RTDE Control interface
@@ -39,16 +50,48 @@ def origin(rtde_c, rtde_r, acc, vel):
         acc (float): Acceleration for the movement
         vel (float): Velocity for the movement
     """
-    # Move to the origin of the object being printed
-    linear_position = rtde_r.getActualTCPPose()  # Obtain current arm location
-    linear_position[0] -= 0.100  # Subtract 10cm from X position
-    rtde_c.moveL(linear_position, acc, vel)  # Move the arm
+    safe_pose = move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=0.05)
+    
+    # Now move to home position
+    home_pose = (deg2rad(180), deg2rad(-45), deg2rad(-135), deg2rad(-180), deg2rad(-90), deg2rad(0))
+    print("Moving to home position")
+    rtde_c.moveJ(home_pose, acc, vel)
+    print("Home position reached")
+    time.sleep(1)  # Delay between moves to catch any errors
+
+def origin(rtde_c, rtde_r, acc, vel):
+    """
+    Move robot to the origin position with safety movements.
+    
+    Args:
+        rtde_c: RTDE Control interface
+        rtde_r: RTDE Receive interface
+        acc (float): Acceleration for the movement
+        vel (float): Velocity for the movement
+    """
+    # First move to a safe height
+    safe_pose = move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=0.1)
+    
+    # Calculate the target position (10cm in X from current position)
+    target_pose = safe_pose.copy()
+    target_pose[0] -= 0.100  # Subtract 10cm from X position
+    
+    # Move horizontally at the safe height
+    print(f"Moving horizontally to X position: {target_pose[0]:.4f}m")
+    rtde_c.moveL(target_pose, acc, vel)
+    time.sleep(0.5)
+    
+    # Now move down to the original Z-height
+    target_pose[2] -= 0.1  # Return to original height
+    print(f"Lowering to operating height: {target_pose[2]:.4f}m")
+    rtde_c.moveL(target_pose, acc, vel)
+    
     print("At origin position")
     time.sleep(1)  # Delay between moves to catch any errors
 
 def house(rtde_r, rtde_c, acc, vel, width, length):
     """
-    Move robot in a house-shaped pattern.
+    Move robot in a house-shaped pattern with safety movements.
     
     Args:
         rtde_r: RTDE Receive interface
@@ -58,6 +101,15 @@ def house(rtde_r, rtde_c, acc, vel, width, length):
         width (float): Width of the house
         length (float): Length of the house
     """
+    # First move to a safe height
+    safe_pose = move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=0.05)
+    
+    # Lower to start position
+    start_pose = safe_pose.copy()
+    start_pose[2] -= 0.05  # Return to original height
+    rtde_c.moveL(start_pose, acc, vel)
+    time.sleep(0.5)
+    
     # Main house outline
     print("Beginning object path")
     
@@ -107,10 +159,13 @@ def house(rtde_r, rtde_c, acc, vel, width, length):
     linear_position = rtde_r.getActualTCPPose()
     linear_position[0] += 0.5 * length
     rtde_c.moveL(linear_position, acc, vel)
+    
+    # Move back up to safe height when done
+    move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=0.05)
 
-def execute_stl_path(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_factor=0.001):
+def execute_stl_path(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_factor=1, safety_height=0.05):
     """
-    Execute a path derived from an STL file.
+    Execute a path derived from an STL file with safety movements.
     
     Args:
         rtde_r: RTDE Receive interface
@@ -120,6 +175,7 @@ def execute_stl_path(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_fa
         vel (float): Velocity for robot movements
         z_offset (float): Z-offset to add to all movements (for clearance)
         scale_factor (float): Scale factor to apply to the STL vertices
+        safety_height (float): Height to lift between operations for safety
     """
     # Get the current position as the reference
     current_pose = rtde_r.getActualTCPPose()
@@ -140,10 +196,11 @@ def execute_stl_path(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_fa
     vertices = stl_reader.scale_vertices(vertices, scale_factor)
     print(f"Scaled vertices by factor {scale_factor}")
     
-    # Center vertices
-    vertices = stl_reader.center_vertices(vertices)
+    # Align to bottom-left corner instead of centering
+    vertices = stl_reader.align_to_bottom_left(vertices)
+    print("Aligned to bottom-left corner as origin")
     
-    # Find the min/max z after scaling
+    # Find the min/max z after scaling and alignment
     min_z = min(z for _, _, z in vertices)
     max_z = max(z for _, _, z in vertices)
     z_range = max_z - min_z
@@ -169,20 +226,25 @@ def execute_stl_path(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_fa
     path = stl_reader.sort_vertices_by_path(layer_vertices)
     print(f"Created path with {len(path)} points at z={z_height:.4f}m")
     
-    # Move to a safe height before starting
-    safe_pose = current_pose.copy()
-    safe_pose[2] = reference_z + 0.05  # 5cm above current position
-    rtde_c.moveL(safe_pose, acc, vel)
-    time.sleep(1)
+    # First, move to a safe height
+    safe_pose = move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=safety_height)
+    time.sleep(0.5)
     
-    # Move to the starting point of the path
+    # Move to a position above the starting point
     if path:
-        start_pose = current_pose.copy()
-        start_pose[0] = reference_x + path[0][0]
-        start_pose[1] = reference_y + path[0][1]
+        approach_pose = safe_pose.copy()
+        approach_pose[0] = reference_x + path[0][0]
+        approach_pose[1] = reference_y + path[0][1]
+        
+        print(f"Moving to position above start point: ({approach_pose[0]:.4f}, {approach_pose[1]:.4f}, {approach_pose[2]:.4f})")
+        rtde_c.moveL(approach_pose, acc, vel)
+        time.sleep(0.5)
+        
+        # Now lower to the starting Z height
+        start_pose = approach_pose.copy()
         start_pose[2] = reference_z + path[0][2] + z_offset
         
-        print(f"Moving to start point: {start_pose[:3]}")
+        print(f"Lowering to start point: ({start_pose[0]:.4f}, {start_pose[1]:.4f}, {start_pose[2]:.4f})")
         rtde_c.moveL(start_pose, acc, vel)
         time.sleep(0.5)
         
@@ -194,21 +256,22 @@ def execute_stl_path(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_fa
             target_pose[2] = reference_z + z + z_offset
             
             # Print every 10th point to avoid console spam
-            if i % 10 == 0:
-                print(f"Moving to point {i+1}/{len(path)}: {target_pose[:3]}")
+            if i % 1 == 0:
+                print(f"Moving to point {i+1}/{len(path)}: ({x:.4f}, {y:.4f}, {z:.4f})")
             
             rtde_c.moveL(target_pose, acc, vel)
             # Small delay for very intricate paths
             time.sleep(0.1)
     
     # Return to safe height when done
-    final_pose = current_pose.copy()
-    final_pose[2] = reference_z + 0.05
-    rtde_c.moveL(final_pose, acc, vel)
+    move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=safety_height)
 
-def trace_stl_contour(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_factor=0.001):
+    # Return home when done
+    home(rtde_c, rtde_r, acc, vel)
+
+def trace_stl_contour(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_factor=1, safety_height=0.05):
     """
-    Trace only the outer contour of an STL file at a specific z-height.
+    Trace only the outer contour of an STL file with safety movements.
     
     Args:
         rtde_r: RTDE Receive interface
@@ -218,6 +281,7 @@ def trace_stl_contour(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_f
         vel (float): Velocity for robot movements
         z_offset (float): Z-offset to add to all movements (for clearance)
         scale_factor (float): Scale factor to apply to the STL vertices
+        safety_height (float): Height to lift between operations for safety
     """
     # Get the current position as the reference
     current_pose = rtde_r.getActualTCPPose()
@@ -238,8 +302,9 @@ def trace_stl_contour(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_f
     vertices = stl_reader.scale_vertices(vertices, scale_factor)
     print(f"Scaled vertices by factor {scale_factor}")
     
-    # Center vertices
-    vertices = stl_reader.center_vertices(vertices)
+    # Align to bottom-left corner instead of centering
+    vertices = stl_reader.align_to_bottom_left(vertices)
+    print("Aligned to bottom-left corner as origin")
     
     # Get the contour vertices (outer shape)
     contour_vertices = stl_reader.extract_contour_vertices(vertices)
@@ -251,19 +316,24 @@ def trace_stl_contour(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_f
     
     print(f"Extracted contour with {len(contour_vertices)} points")
     
-    # Move to a safe height before starting
-    safe_pose = current_pose.copy()
-    safe_pose[2] = reference_z + 0.05  # 5cm above current position
-    rtde_c.moveL(safe_pose, acc, vel)
-    time.sleep(1)
+    # First, move to a safe height
+    safe_pose = move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=safety_height)
+    time.sleep(0.5)
     
-    # Move to the starting point
-    start_pose = current_pose.copy()
-    start_pose[0] = reference_x + contour_vertices[0][0]
-    start_pose[1] = reference_y + contour_vertices[0][1]
+    # Move to a position above the starting point
+    approach_pose = safe_pose.copy()
+    approach_pose[0] = reference_x + contour_vertices[0][0]
+    approach_pose[1] = reference_y + contour_vertices[0][1]
+    
+    print(f"Moving to position above start point: ({approach_pose[0]:.4f}, {approach_pose[1]:.4f}, {approach_pose[2]:.4f})")
+    rtde_c.moveL(approach_pose, acc, vel)
+    time.sleep(0.5)
+    
+    # Now lower to the starting Z height
+    start_pose = approach_pose.copy()
     start_pose[2] = reference_z + contour_vertices[0][2] + z_offset
     
-    print(f"Moving to start point: {start_pose[:3]}")
+    print(f"Lowering to start point: ({start_pose[0]:.4f}, {start_pose[1]:.4f}, {start_pose[2]:.4f})")
     rtde_c.moveL(start_pose, acc, vel)
     time.sleep(0.5)
     
@@ -290,6 +360,7 @@ def trace_stl_contour(rtde_r, rtde_c, stl_path, acc, vel, z_offset=0.01, scale_f
         rtde_c.moveL(target_pose, acc, vel)
     
     # Return to safe height when done
-    final_pose = current_pose.copy()
-    final_pose[2] = reference_z + 0.05
-    rtde_c.moveL(final_pose, acc, vel)
+    move_to_safe_height(rtde_c, rtde_r, acc, vel, height_offset=safety_height)
+
+    # Return home when done
+    home(rtde_c, rtde_r, acc, vel)
